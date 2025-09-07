@@ -43,11 +43,11 @@ export default function Hero() {
           >
             <h2 className="text-xl md:text-2xl font-medium text-teal-400 mb-2">Hello, I'm</h2>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-teal-400 via-purple-500 to-pink-500">
-              Mohammad Arslan
+              Muhammad Taha
             </h1>
-            <h3 className="text-xl md:text-3xl font-semibold mb-6 text-slate-200">Senior Software Engineer</h3>
+            <h3 className="text-xl md:text-3xl font-semibold mb-6 text-slate-200">Associate Software Engineer</h3>
             <p className="text-base md:text-lg text-slate-300 mb-8 max-w-2xl mx-auto">
-              Building robust web applications with PHP, Laravel, React, and Next.js with over 5+ years of experience.
+              Building robust web applications with PHP, Laravel with over 1+ years of experience.
               Passionate about creating elegant solutions to complex problems.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -63,7 +63,7 @@ export default function Hero() {
               >
                 View Projects
               </Button>
-              <a href="/files/mohammad-arslan-resume.pdf" download="Mohammad_Arslan_Resume.pdf">
+              <a href="/files/muhammad-taha-resume.pdf" download="Muhammad_Taha_Resume.pdf">
                 <Button
                   variant="outline"
                   className="border-white/20 bg-white/10 text-white hover:bg-white/20 flex items-center"

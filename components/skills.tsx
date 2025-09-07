@@ -11,62 +11,30 @@ export default function Skills() {
 
   const skillCategories = [
     {
-      name: "Frontend",
+      name: "Technical Skills",
       skills: [
-        { name: "React JS", level: 75 },
-        { name: "NEXT JS", level: 60 },
-        { name: "JavaScript", level: 75 },
-        { name: "HTML5", level: 95 },
+        { name: "PHP", level: 50 },
+        { name: "Laravel", level: 70 },
+        { name: "JavaScript", level: 40 },
+        { name: "HTML5", level: 85 },
         { name: "CSS3", level: 50 },
         { name: "Bootstrap", level: 60 },
-        { name: "jQuery", level: 70 },
+        { name: "jQuery", level: 40 },
+        { name: "MySQL", level: 60 },
+        { name: "Ajax", level: 40 },
       ],
     },
     {
-      name: "Backend",
-      skills: [
-        { name: "PHP", level: 75 },
-        { name: "Laravel", level: 90 },
-        { name: "SQL", level: 80 },
-        { name: "Ajax", level: 70 },
-      ],
-    },
-    {
-      name: "Databases",
-      skills: [
-        { name: "MySQL", level: 80 },
-        { name: "SQL Server", level: 80 },
-        { name: "MongoDB", level: 60 },
-      ],
-    },
-    {
-      name: "Third-Party API Integrations",
-      skills: [
-        { name: "Google APIs", level: 65 },
-        { name: "Facebook API", level: 70 },
-        { name: "Instagram API", level: 70 },
-        { name: "Twitter API", level: 60 },
-        { name: "Shopify API", level: 85 },
-        { name: "Square POS", level: 90 },
-        { name: "YouTube API", level: 80 },
-        { name: "Twillio", level: 80 },
-      ],
-    },
-    {
-      name: "Payment Gateways",
-      skills: [
-        { name: "Stripe", level: 80 },
-        { name: "EasyPaisa", level: 80 },
-        { name: "JazzCash", level: 80 },
-      ],
-    },
-    {
-      name: "Other",
-      skills: [
-        { name: "Elasticsearch", level: 60 },
-        { name: "Convex", level: 50 },
-      ],
-    },
+     name: "Soft Skills",
+skills: [
+  { name: "Problem Solving", level: 85 },
+  { name: "Communication", level: 80 },
+  { name: "Team Collaboration", level: 75 },
+  { name: "Adaptability", level: 80 },
+  { name: "Time Management", level: 70 },
+],
+
+   }
   ]
 
   const containerVariants = {
@@ -98,7 +66,7 @@ export default function Skills() {
             transition={{ duration: 0.5 }}
             className="text-3xl font-bold text-slate-800 dark:text-white"
           >
-            Technical Skills
+            Skills
           </motion.h2>
           <motion.div
             initial={{ opacity: 0, width: 0 }}

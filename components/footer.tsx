@@ -16,14 +16,14 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Mohammad Arslan</h3>
+            <h3 className="text-xl font-bold mb-4">Muhammad Taha</h3>
             <p className="text-slate-400 mb-4">
-              Senior Software Engineer specializing in web development with PHP,
-              Laravel, React, and Next.js.
+              Associate Software Engineer specializing in web development with PHP,
+              Laravel, Bootstrap.
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://www.linkedin.com/in/mohammad-arslan-rajpoot"
+                href="https://www.linkedin.com/in/muhammad-taha-2b24812a6/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-400 hover:text-teal-400 transition-colors"
@@ -39,7 +39,7 @@ export default function Footer() {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="mailto:shanitoor73@gmail.com"
+                href="mailto:tahaasif82442@gmail.com"
                 className="text-slate-400 hover:text-teal-400 transition-colors"
               >
                 <Mail className="h-5 w-5" />
@@ -82,14 +82,14 @@ export default function Footer() {
                   Projects
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="#achievements"
                   className="text-slate-400 hover:text-teal-400 transition-colors"
                 >
                   Achievements
                 </a>
-              </li>
+              </li> */}
               {/* <li>
                 <a
                   href="#testimonials"
@@ -114,11 +114,11 @@ export default function Footer() {
             <ul className="space-y-2">
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-teal-500 mr-2" />
-                <span className="text-slate-400">+92-3453221067</span>
+                <span className="text-slate-400">+92-3244420869</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-teal-500 mr-2" />
-                <span className="text-slate-400">shanitoor73@gmail.com</span>
+                <span className="text-slate-400">tahaasif82442@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -126,7 +126,7 @@ export default function Footer() {
 
         <div className="border-t border-slate-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-slate-400 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Mohammad Arslan. All rights
+            &copy; {new Date().getFullYear()} Muhammad Taha. All rights
             reserved.
           </p>
           <motion.button

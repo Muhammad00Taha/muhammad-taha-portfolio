@@ -7,33 +7,33 @@ import { ThemeToggle } from "@/components/theme-toggle"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Mohammad Arslan - Senior Software Engineer | PHP, Laravel, React, Next.js",
+  title: "Muhammad Taha - Associate Software Engineer | PHP, Laravel",
   description:
-    "Experienced Senior Software Engineer with 5+ years specializing in PHP, Laravel, React, and Next.js. Building robust web applications and solving complex problems through elegant code.",
-  keywords: "Mohammad Arslan, Software Engineer, PHP Developer, Laravel Expert, React Developer, Next.js, Web Development, Full Stack Developer",
-  authors: [{ name: "Mohammad Arslan" }],
-  creator: "Mohammad Arslan",
-  publisher: "Mohammad Arslan",
+    "Experienced Associate Software Engineer with 1+ years specializing in PHP, Laravel, React, and Next.js. Building robust web applications and solving complex problems through elegant code.",
+  keywords: "Muhammad Taha, Software Engineer,Laravel Expert, Web Development, Full Stack Developer",
+  authors: [{ name: "Muhammad Taha" }],
+  creator: "Muhammad Taha",
+  publisher: "Muhammad Taha",
   generator: "v0.dev",
   openGraph: {
-    title: "Mohammad Arslan - Senior Software Engineer",
-    description: "Building robust web applications with PHP, Laravel, React, and Next.js with over 5+ years of experience.",
+    title: "Muhammad Taha - Associate Software Engineer",
+    description: "Building robust web applications with PHP, Laravel, with over 1+ years of experience.",
     images: [{ url: "/images/mohammad-arslan.png" }],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mohammad Arslan - Senior Software Engineer",
-    description: "Building robust web applications with PHP, Laravel, React, and Next.js with over 5+ years of experience.",
-    images: ["/images/mohammad-arslan.png"],
+    title: "Muhammad Taha - Associate Software Engineer",
+    description: "Building robust web applications with PHP, Laravel with over 1+ years of experience.",
+    images: ["/images/muhammad-taha.jpg"],
   },
   icons: {
     icon: [
-      { url: "/images/mohammad-arslan.png" },
-      { url: "/images/mohammad-arslan.png", type: "image/png" }
+      { url: "/images/muhammad-taha.jpg" },
+      { url: "/images/muhammad-taha.jpg", type: "image/jpg" }
     ],
-    shortcut: "/images/mohammad-arslan.png",
-    apple: "/images/mohammad-arslan.png",
+    shortcut: "/images/muhammad-taha.jpg",
+    apple: "/images/muhammad-taha.jpg",
   }
 }
 

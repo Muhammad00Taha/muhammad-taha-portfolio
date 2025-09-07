@@ -31,15 +31,15 @@ export default function Education() {
 
   const certifications = [
     {
-      title: "Mastering In Full Stack Laravel/React JS",
+      title: "Mastering In Laravel",
       issuer: "Udemy",
-      date: "2022",
+      date: "2024",
       icon: <BookOpen className="h-6 w-6 text-teal-500" />,
     },
     {
       title: "SQL Mastering",
       issuer: "Udemy",
-      date: "2021",
+      date: "2024",
       icon: <BookOpen className="h-6 w-6 text-teal-500" />,
     },
   ]
@@ -93,9 +93,9 @@ export default function Education() {
             >
               <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-teal-500"></div>
               <div className="bg-slate-50 dark:bg-slate-700/50 p-4 rounded-lg">
-                <h4 className="text-lg font-semibold text-slate-800 dark:text-white mb-1">BS Software Engineering</h4>
-                <p className="text-slate-600 dark:text-slate-300 mb-2">Virtual University of Pakistan, Lahore</p>
-                <p className="text-slate-500 dark:text-slate-400 text-sm">Graduated: 2018</p>
+                <h4 className="text-lg font-semibold text-slate-800 dark:text-white mb-1">BS Computer Science</h4>
+                <p className="text-slate-600 dark:text-slate-300 mb-2">COMSATS University Pakistan, Lahore</p>
+                <p className="text-slate-500 dark:text-slate-400 text-sm">Graduated: 2024</p>
               </div>
             </motion.div>
           </motion.div>

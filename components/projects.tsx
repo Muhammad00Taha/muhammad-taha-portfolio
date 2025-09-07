@@ -28,24 +28,9 @@ export default function Projects() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
   const projects: Project[] = [
+    
     {
       id: 1,
-      title: "iProsper CRM",
-      description: "A comprehensive CRM system with payment integration and third-party service synchronization.",
-      images: [
-        "/images/i1.png",
-        "/images/i2.png",
-        "/images/i3.png",
-        "/images/i4.png",
-        "/images/i5.png",
-      ],
-      technologies: ["PHP", "Cervo", "React JS", "MySQL"],
-      role: "Full Stack Developer",
-      details: "Integrated Stripe and PayPal for seamless transactions, and synchronized data with Google and Microsoft services. Implemented user authentication, role-based access control, and real-time notifications. The system includes contact management, sales pipeline tracking, email integration, and comprehensive reporting dashboards.",
-      link: "#",
-    },
-    {
-      id: 2,
       title: "KeyConnect CRM",
       description: "A CRM system tailored for call center solutions, built with Laravel, Vue.js, MySQL, and Elasticsearch.",
       images: [
@@ -56,76 +41,12 @@ export default function Projects() {
         "/images/crm5.jpg",
         "/images/crm6.jpg",
       ],
-      technologies: ["Laravel", "MySQL", "Ajax", "Blade", "VueJS", "Elasticsearch"],
+      technologies: ["Laravel", "MySQL", "Ajax", "Blade", "Elasticsearch"],
       role: "Full Stack Developer",
-      details: "Contributed as a senior full stack developer to the development of a comprehensive CRM system tailored for call center operations. The platform incorporates VoIP and SIP integration to facilitate efficient communication and call handling. Utilized Laravel for building robust backend services, Vue.js and Blade with AJAX for creating responsive and dynamic user interfaces, and Elasticsearch for high-performance real-time search capabilities.",
+      details: "Contributed as a full stack developer to the development of a comprehensive CRM system tailored for call center operations. The platform incorporates VoIP and SIP integration to facilitate efficient communication and call handling. Utilized Laravel for building robust backend services, Blade with AJAX for creating responsive and dynamic user interfaces, and Elasticsearch for high-performance real-time search capabilities.",
       link: "#",
     },
-    {
-      id: 3,
-      title: "Ting - Event Management System",
-      description: "An event management system with NFC technology integration.",
-      images: [
-        "/images/t1.png",
-        "/images/t2.png",
-        "/images/t3.png",
-        "/images/t4.png",
-        "/images/t5.png",
-        "/images/t6.png",
-        "/images/t7.png",
-        "/images/t8.png",
-        "/images/t9.png",
-        "/images/t10.png",
-      ],
-      technologies: ["Laravel", "MySQL", "NFC Technology"],
-      role: "Backend Developer",
-      details: "Led the development of an event management system integrating NFC technology for seamless attendance tracking and user management. Implemented features like event creation, ticket sales, attendee management, and reporting. The system supports multiple event types, custom registration forms, and real-time analytics for event organizers.",
-      link: "#",
-    },
-    {
-      "id": 4,
-      "title": "Capex BNU",
-      "description": "A comprehensive management system developed for Beaconhouse National University and its affiliated schools, focusing on staff budgeting, inventory tracking, and accounts management.",
-      "images": [
-        "/images/b1.jpg",
-        "/images/b2.jpg",
-        "/images/b3.jpg",
-      ],
-      "technologies": ["Core PHP", "JavaScript", "Oracle"],
-      "role": "Software Engineer",
-      "details": "Worked on the budgeting, accounts, and inventory modules as a Software Engineer. Responsibilities included developing and maintaining modules to streamline financial planning, procurement workflows, and stock management. Utilized Core PHP for backend development, JavaScript for client-side interactions, and Oracle for database management to ensure system reliability and efficiency across the university's operations.",
-      "link": "#"
-    },    
-    {
-      id: 5,
-      title: "Jane Bond BBQ",
-      description: "Square Point API integration for a restaurant management system.",
-      images: [
-        "/images/j1.jpg",
-        "/images/j2.jpg",
-        "/images/j3.jpg",
-        "/images/j4.jpg",
-      ],
-      technologies: ["React JS", "Square API"],
-      role: "Frontend Developer",
-      details: "Integrated Square Point APIs to enhance the functionality of a restaurant management system. Implemented features like payment processing, inventory management, and sales reporting. The system provides real-time sales analytics, employee management, and customer relationship tools specifically designed for BBQ restaurants.",
-      link: "#",
-    },
-    {
-      id: 6,
-      title: "MineIQ",
-      description: "A comprehensive mine management system with ticket-based workflow.",
-      images: [
-        "/images/mi1.png",
-        "/images/mi2.png",
-        "/images/mi3.png",
-        "/images/mi4.png",
-      ],
-      technologies: ["React JS", "Laravel", "MySQL"],
-      role: "Full-Stack Developer",
-      details: "Developed a comprehensive mine management system, implementing a ticket-based workflow for task tracking and team management. Implemented features like resource allocation, progress monitoring, and reporting. The system includes safety compliance tracking, equipment maintenance scheduling, and production analytics for mining operations.",
-      link: "#",
-    },
+
   ]
 
   const containerVariants = {

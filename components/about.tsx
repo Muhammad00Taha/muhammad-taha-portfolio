@@ -61,49 +61,49 @@ export default function About() {
             <div className="w-20 h-1 bg-teal-500 mb-6"></div>
 
             <p className="text-slate-600 dark:text-slate-300 mb-4">
-              Dynamic and innovative Senior Software Engineer with over 5+ years of experience, specializing in PHP,
-              JavaScript, SQL, and modern frameworks like Laravel, React JS, and Next JS. I'm passionate about building
+              Dynamic and innovative Associate Software Engineer with over 1+ years of experience, specializing in PHP,
+              SQL, and modern frameworks like Laravel. I'm passionate about building
               scalable web applications and solving complex problems through elegant code.
             </p>
 
             <p className="text-slate-600 dark:text-slate-300 mb-6">
-              Beyond coding, I enjoy staying updated with the latest tech trends, contributing to open-source projects,
-              and mentoring junior developers. I believe in writing clean, maintainable code and creating intuitive user
-              experiences.
+              Beyond coding, I actively keep up with emerging technologies, contribute to collaborative projects,
+               and enjoy sharing knowledge with peers. With over a year of hands-on experience, 
+               I focus on writing clean, maintainable code and building user-friendly solutions.
             </p>
 
             <div className="flex flex-col space-y-3 mb-6">
               <div className="flex items-center">
                 <MapPin className="h-5 w-5 text-teal-500 mr-3" />
-                <span className="text-slate-600 dark:text-slate-300">LMDC, Lahore, Pakistan</span>
+                <span className="text-slate-600 dark:text-slate-300"> Lahore, Pakistan</span>
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-teal-500 mr-3" />
-                <span className="text-slate-600 dark:text-slate-300">shanitoor73@gmail.com</span>
+                <span className="text-slate-600 dark:text-slate-300">tahaasif82442@gmail.com</span>
               </div>
               <div className="flex items-center">
                 <Linkedin className="h-5 w-5 text-teal-500 mr-3" />
                 <a
-                  href="https://www.linkedin.com/in/mohammad-arslan-rajpoot"
+                  href="https://www.linkedin.com/in/muhammad-taha-2b24812a6/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-slate-600 dark:text-slate-300 hover:text-teal-500 dark:hover:text-teal-400 transition-colors"
                 >
-                  mohammad-arslan-rajpoot
+                  muhammad-taha
                 </a>
               </div>
             </div>
 
             <div className="flex space-x-4">
               <Button className="bg-teal-500 hover:bg-teal-600" onClick={() => {
-                  const contactSelection = document.getElementById("contact")
-                  if (contactSelection) {
-                    contactSelection.scrollIntoView({ behavior: "smooth" })
-                  }
-                }}>
+                const contactSelection = document.getElementById("contact")
+                if (contactSelection) {
+                  contactSelection.scrollIntoView({ behavior: "smooth" })
+                }
+              }}>
                 <Mail className="mr-2 h-4 w-4" /> Contact Me
               </Button>
-              <a href="/files/mohammad-arslan-resume.pdf" download="Mohammad_Arslan_Resume.pdf">
+              <a href="/files/muhammad-taha-resume.pdf" download="Muhammad_Taha_Resume.pdf">
                 <Button
                   variant="outline"
                   className="border-teal-500 text-teal-500 hover:bg-teal-500/10 flex items-center"
