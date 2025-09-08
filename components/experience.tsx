@@ -17,7 +17,7 @@ export default function Experience() {
       location: "Lahore",
       period: "July 2024 - Present",
       description: [
-        "Call Center CRM: Independently built a complete CRM system for call center operations, leveraging Laravel, Bootstrap, MySQL, and Elasticsearch.",
+        "Call Center CRM: Built a CRM system for call center operations, leveraging Laravel, Bootstrap, MySQL, and Elasticsearch.",
         "Database Optimization: Designed and optimized database structures and search functionalities to handle high-volume call center data efficiently.",
         "Full-Stack Development: Delivered the end-to-end solution, covering backend development, frontend integration, and system optimization.",
       ],
